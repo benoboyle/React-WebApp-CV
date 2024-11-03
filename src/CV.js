@@ -10,10 +10,9 @@ const Languages = () => {
 
                 <div className='column'>
                     <div className="card">
-                        <div className='image-container'>
-                        <img src="/bath-logo.png" style={{height: '10rem'}} alt="react-logo"></img>
                         
-                        </div>
+                        <img src="/bath-logo.png" style={{height: '10rem'}} alt="bath-logo"></img>
+                        
                         <div className="card-body">
                             <h5 className="card-title">Higher Education</h5>
                             <div className='card-text'>
@@ -50,7 +49,7 @@ const Languages = () => {
                     </div>
 
                     <div className='card'>
-                        <img src="/capula-logo.png" style={{height: '10rem'}} alt="react-logo"></img>
+                        <img src="/capula-logo.png" style={{height: '8rem'}} alt="react-logo"></img>
                         <div className="card-body">
                             <h5 className='card-title'>Graduate</h5>
                             <div>

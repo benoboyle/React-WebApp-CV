@@ -1,7 +1,15 @@
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 20px; /* Add some spacing between grid items */
 }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Switch to a single column on narrow screens */
+    }
+}
+
 
 .grid-item {
     background-color: #f4f4f4;
@@ -17,15 +25,14 @@
 }
 
 .card {
-
-    border-radius: 0.25rem;
-    background-color: white;
+    width: 100%; /* Makes the card take the full width of the grid item */
+    max-width: 500px; /* Sets a max width for larger screens */
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 550px;
 }
+
 
 .card-body {
     display: flex;
@@ -72,3 +79,5 @@
     flex: 1; 
     margin: 10px;
 }
+
+

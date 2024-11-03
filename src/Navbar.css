@@ -6,3 +6,16 @@ ul li {
     display: inline;
     margin-right: 15px;
 }
+
+ul li a {
+    text-decoration: none;
+}
+
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    padding-left: 30px;
+}

@@ -7,9 +7,12 @@ const Navbar = () => {
         <nav className = "navbar">
             <h1> Ben O'Boyle </h1>
             <ul>
-                <li><Link to="/">Home</Link></li>
+                <li><Link to="/Welcome">Home</Link></li>
                 <li><Link to="/Projects">Projects</Link></li>
                 <li><Link to="/TechStack">Tech Stack</Link></li>
+                <li><Link to="/Languages">Languages</Link></li>
+                <li><Link to="/CV">CV</Link></li>
+
             </ul>
         </nav>
 

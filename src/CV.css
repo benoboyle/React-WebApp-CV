@@ -1,0 +1,107 @@
+.list-vertical {
+    display: grid;
+    width: 110%;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none; 
+    padding: 0; 
+}
+
+p {
+    text-align: left;
+}
+
+
+.image-container {
+    display: flex;
+    gap: 5rem;
+}
+
+
+h5 {
+    text-align: start;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.list-vertical li {
+    display: block;
+    text-align: start;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.container-title {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 50px;
+}
+
+.card {
+
+    border-radius: 0.25rem;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.card-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.card-text p {
+    text-align: start;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 8px 16px;
+    border-radius: 0.25rem;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+    text-decoration: underline;
+}
+
+.btn-learn {
+    color: teal;
+    align-items: center;
+}
+
+.column {
+    flex: 1;
+    margin: 10px;
+}
